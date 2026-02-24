@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;run&apos; from expression &apos;SpringApplication.run(SMvcDemoApplication.class,args)&apos;&#x0D;&#x0A;- Original project: &apos;S_MVC_demo&apos;&#x0D;&#x0A;- Variable name: &apos;run&apos;&#x0D;&#x0A;- Destination method: &apos;com.ty.first.SMvcDemoApplication.main(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;SpringApplication.run(SMvcDemoApplication.class,args)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;run&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ty.first{SMvcDemoApplication.java" name="run" replace="true" replaceAllInThisFile="false" selection="247 54" stamp="1771325981344" varType="false" version="1.0"/>
+</session>
