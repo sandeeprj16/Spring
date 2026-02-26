@@ -41,6 +41,6 @@ public class ProductController {
 	@PatchMapping("/patch")
 	private String patch() {
 		// TODO Auto-generated method stub
-		return "patch oper";
+		return "patch open sandy";
 	}
 }
