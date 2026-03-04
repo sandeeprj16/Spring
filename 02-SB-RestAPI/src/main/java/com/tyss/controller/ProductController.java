@@ -85,4 +85,19 @@ public class ProductController {
 		// TODO Auto-generated method stub
 		return "patch open sandy";
 	}
+	@GetMapping("/cat")
+	public List <Product> byCategory(@RequestParam(name="cat") String category){
+		List<Product> products=productRepository.findByCategory(category);
+		return products;
+	}
+	@GetMapping("/filter")
+	public List<Product> filterProducts(@RequestBody Product product) {
+
+		Example<Product> of = Example.of(product);
+
+		List<Product> products = productRepository.findAll(of);
+
+		return products;
+	}
+	
 }

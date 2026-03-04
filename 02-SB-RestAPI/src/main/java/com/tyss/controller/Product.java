@@ -11,13 +11,17 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int pid;
 	private String pname;
+	private String category;
+	private Double price;
+	private String brand;
+
 	
 	public Product() {}
 	
-	@Override
-	public String toString() {
-		return "Product [pid=" + pid + ", pname=" + pname + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Product [pid=" + pid + ", pname=" + pname + "]";
+//	}
 	
 	public int getPid() {
 		return pid;
@@ -31,6 +35,29 @@ public class Product {
 	public void setPname(String pname) {
 		this.pname = pname;
 	}
-	
-	
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+	public Double getPrice() {
+		return price;
+	}
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+		
 }
