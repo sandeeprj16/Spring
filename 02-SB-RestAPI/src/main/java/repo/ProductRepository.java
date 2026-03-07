@@ -1,11 +1,17 @@
-package com.tyss.controller;
+package repo;
+
+
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
+import entity.Product;
+
+
 public interface ProductRepository extends JpaRepository<Product, Integer> {
+
 	// Custom queries
 //	@Query("SELECT p FROM Product p WHERE p.category=?1")
 	@Query("SELECT p FROM Product p WHERE p.category=:category")
