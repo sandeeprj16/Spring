@@ -1,4 +1,4 @@
-package entity;
+package com.tyss.entity;
 
 
 import jakarta.persistence.Entity;

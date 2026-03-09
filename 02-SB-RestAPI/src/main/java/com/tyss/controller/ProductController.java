@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import entity.Product;
-import repo.ProductRepository;
-import service.ProductService;
+import com.tyss.entity.Product;
+import com.tyss.repo.ProductRepository;
+import com.tyss.service.ProductService;
 
 
 @RestController

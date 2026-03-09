@@ -1,12 +1,12 @@
-package service;
+package com.tyss.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import dao.ProductDAO;
-import entity.Product;
+import com.tyss.dao.ProductDAO;
+import com.tyss.entity.Product;
 
 
 @Service

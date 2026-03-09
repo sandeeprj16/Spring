@@ -1,12 +1,12 @@
-package dao;
+package com.tyss.dao;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import entity.Product;
-import repo.ProductRepository;
+import com.tyss.entity.Product;
+import com.tyss.repo.ProductRepository;
 
 
 
