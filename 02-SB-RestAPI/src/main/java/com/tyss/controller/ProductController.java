@@ -26,7 +26,6 @@ import com.tyss.entity.Product;
 import com.tyss.repo.ProductRepository;
 import com.tyss.service.ProductService;
 
-
 @RestController
 @RequestMapping("/product")
 public class ProductController {
