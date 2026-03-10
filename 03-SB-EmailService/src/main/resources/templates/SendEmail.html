@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>My Shop Advertisement</title>
+
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial;
+			background: #f4f4f4;
+		}
+
+		.header {
+			background: #ff6b00;
+			color: white;
+			text-align: center;
+			padding: 30px;
+		}
+
+		.header h1 {
+			margin: 0;
+			font-size: 40px;
+		}
+
+		.banner {
+			background: url("https://images.unsplash.com/photo-1607082350899-7e105aa886ae") center/cover;
+			height: 350px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			font-size: 40px;
+			font-weight: bold;
+		}
+
+		.products {
+			display: flex;
+			justify-content: center;
+			gap: 30px;
+			padding: 40px;
+		}
+
+		.card {
+			background: white;
+			padding: 20px;
+			border-radius: 10px;
+			width: 220px;
+			text-align: center;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+		}
+
+		.card img {
+			width: 100%;
+			border-radius: 10px;
+		}
+
+		.card h3 {
+			margin: 10px 0;
+		}
+
+		.btn {
+			background: #ff6b00;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.btn:hover {
+			background: #e85d00;
+		}
+
+		.footer {
+			background: #333;
+			color: white;
+			text-align: center;
+			padding: 15px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="header">
+		<h1>🔥 My Super Shop 🔥</h1>
+		<p>Best Deals Everyday</p>
+	</div>
+
+	<div class="banner">
+		50% SALE TODAY
+	</div>
+
+	<div class="products">
+
+		<div class="card">
+			<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+			<h3>Smart Watch</h3>
+			<p>₹1999</p>
+			<button class="btn">Buy Now</button>
+		</div>
+
+		<div class="card">
+			<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+			<h3>Smart Phone</h3>
+			<p>₹9999</p>
+			<button class="btn">Buy Now</button>
+		</div>
+
+		<div class="card">
+			<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+			<h3>Laptop</h3>
+			<p>₹45999</p>
+			<button class="btn">Buy Now</button>
+		</div>
+
+	</div>
+
+	<div class="footer">
+		📍 Visit Our Store Today | Contact: 9876543210
+	</div>
+
+</body>
+
+</html>
