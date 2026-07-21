@@ -19,6 +19,10 @@ public class SecurityConfig {
 				.authenticated()
 				.requestMatchers("/noSecurity")
 				.permitAll()
-				.anyRequest().denyAll()).httpBasic(Customizer.withDefaults()).build();
+				.anyRequest().denyAll()).formLogin(Customizer.withDefaults())
+		
+		.build();
 	}
 }
+	
+	
